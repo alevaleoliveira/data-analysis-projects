@@ -1,41 +1,54 @@
-Executive Summary
-This project simulated a real-world e-commerce analytics environment where SQL is used not only for querying data, but for generating strategic business insights.
+# E-Commerce SQL Analytics Project
 
-Using a structured relational database built in MySQL, I performed progressive analysis (basic → advanced) to evaluate revenue structure, customer behavior, growth sustainability, and risk exposure.
+## 📊 Executive Summary
 
-Key Business Findings
-Revenue is highly concentrated in premium products (Electronics represent > 85% of total revenue);
-A small percentage of customers generate the majority of revenue (strong Pareto effect);
-The business model demonstrates strong short-term profitability but structural long-term risk due to revenue concentration and customer dependency.
-Strategic Interpretation
-While the simulated company shows strong margins, it is exposed to:
+This project simulates a real-world e-commerce analytics environment where SQL is used not only for querying data, but for generating strategic business insights.
 
-Customer churn risk;
-Category concentration risk;
-Revenue predictability challenges.
-Long-term sustainability would require diversification strategies, customer retention programs, and mid-frequency buyer expansion.
+Using a structured relational database built in MySQL, the analysis progresses from **basic queries to advanced analytical techniques** to evaluate:
 
-Technical Scope
-This project demonstrates:
+- Revenue structure
+- Customer behavior
+- Growth sustainability
+- Business risk exposure
 
-Relational database modeling (MySQL);
-Data scaling using recursive CTEs;
-Window functions (RANK, NTILE, LAG, SUM OVER)
-Revenue growth analysis;
-Pareto modeling;
-Churn risk detection
-Business-driven SQL storytelling
-Project Structure
-01_create_tables.sql
+---
 
-02_insert_seed_data.sql
+## 🔎 Key Business Findings
 
-03_basic_queries.sql
+- **Revenue concentration:** Electronics represent **more than 85% of total revenue**.
+- **Pareto effect:** A small percentage of customers generate the majority of revenue.
+- **Profitability vs risk:** The business shows strong short-term profitability but significant structural risk due to customer and category concentration.
 
-04_intermediate_queries.sql
+---
 
-05_advanced_queries.sql
+## 🧠 Strategic Interpretation
 
-06_generate_scaled_data.sql
+Although the simulated company presents strong margins, it is exposed to several strategic risks:
 
-07_advanced_business_scenarios.sql
+- Customer churn risk
+- Category concentration risk
+- Revenue predictability challenges
+
+To improve long-term sustainability, the business would likely require:
+
+- Product portfolio diversification
+- Customer retention strategies
+- Expansion of mid-frequency buyers
+
+---
+
+## ⚙️ Technical Scope
+
+This project demonstrates several SQL and data analysis techniques:
+
+- **Relational database modeling** using MySQL
+- **Data scaling** with recursive CTEs
+- **Window functions** (`RANK`, `NTILE`, `LAG`, `SUM OVER`)
+- **Revenue growth analysis**
+- **Pareto modeling**
+- **Churn risk detection**
+- **Business-driven SQL storytelling**
+
+---
+
+## 📁 Project Structure
