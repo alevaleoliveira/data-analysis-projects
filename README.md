@@ -52,13 +52,13 @@ This project demonstrates several SQL and data analysis techniques:
 ---
 
 ## 📁 Project Structure
-01_create_tables.sql
-02_insert_seed_data.sql
-03_basic_queries.sql
-04_intermediate_queries.sql
-05_advanced_queries.sql
-06_generate_scaled_data.sql
-07_advanced_business_scenarios.sql
+- 01_create_tables.sql
+- 02_insert_seed_data.sql
+- 03_basic_queries.sql
+- 04_intermediate_queries.sql
+- 05_advanced_queries.sql
+- 06_generate_scaled_data.sql
+- 07_advanced_business_scenarios.sql
 
 Each SQL file represents a different stage of the analytical process, moving from foundational data exploration to complex business-oriented analysis.
 
